@@ -2,6 +2,8 @@ name: Bornium Sistemas 11.0
 #run-name: Rodando
 on: 
   push:
+    branches:
+    - main
     paths:
       - 'ControleVersao.txt'  # Somente vai ser executada quando este arquivo for alterado
 jobs: 
