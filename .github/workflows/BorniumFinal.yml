@@ -1,6 +1,9 @@
 name: Bornium Sistemas 11.0
 #run-name: Rodando
-on: [push]
+on: 
+  push:
+    branches:
+      - VersaoFinal
 jobs: 
   on-push:
     runs-on: ubuntu-latest
