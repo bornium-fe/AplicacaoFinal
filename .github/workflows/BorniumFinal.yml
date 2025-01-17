@@ -1,11 +1,11 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Atualização Bornium 11.0
+#name: Atualização Bornium 11.0
 
-on:
-  push:
-    branches: [ "main" ]
+#on:
+#  push:
+#    branches: [ "main" ]
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+#jobs:
+#  build:
+#    runs-on: ubuntu-latest
