@@ -1,5 +1,4 @@
 name: Bornium Sistemas 11.0
-#run-name: Rodando
 on: 
   push:
     branches:
@@ -19,5 +18,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
           
+      - name: Upload file to S3
+        run: aws s3 cp ./02.Instalador/Bornium.Atz.Cliente.v11.exe s3://bornium.instalador
 
 
