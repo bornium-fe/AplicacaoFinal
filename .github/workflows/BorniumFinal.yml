@@ -1,13 +1,9 @@
-
 name: GitHub Teste
-
 run-name: Rodando
-
 on: [push]
-
 jobs: 
   on-push:
     runs-on: ubuntu-latest
     steps:
       - name: teste
-      run: echo "paulo cesar medeiros"
+        run: echo "paulo cesar medeiros"
