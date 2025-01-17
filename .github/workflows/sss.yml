@@ -1,6 +1,11 @@
 
 name: 1 Initial 
 
+on: 
+  push:
+    branches:
+    - main
+
 permissions:
   id-token: write
   contents: read
