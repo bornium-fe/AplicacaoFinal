@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2025-01-17T00:19:39.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="H0fCcC0V1Dwn_FEDybhy" version="21.2.8" type="device">
+  <diagram name="Página-1" id="8vEs1frSRXkCqPQo9St5">
+    <mxGraphModel dx="1325" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Px4W81PEA-qsthMNMplE-1" value="6-S3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="190" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Px4W81PEA-qsthMNMplE-2" value="3-Instalador&amp;nbsp;&lt;br&gt;Delphi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="770" y="184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Px4W81PEA-qsthMNMplE-3" value="2-Build&lt;br&gt;Delphi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="490" y="184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Px4W81PEA-qsthMNMplE-5" value="1-Produção" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="190" y="184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Px4W81PEA-qsthMNMplE-7" value="4-Aplicacação Final&lt;br&gt;(github)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="770" y="334" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Px4W81PEA-qsthMNMplE-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Px4W81PEA-qsthMNMplE-5" target="Px4W81PEA-qsthMNMplE-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="374" as="sourcePoint" />
+            <mxPoint x="500" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Px4W81PEA-qsthMNMplE-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Px4W81PEA-qsthMNMplE-3" target="Px4W81PEA-qsthMNMplE-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="424" as="sourcePoint" />
+            <mxPoint x="440" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Px4W81PEA-qsthMNMplE-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.575;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.575;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Px4W81PEA-qsthMNMplE-2" target="Px4W81PEA-qsthMNMplE-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="833" y="254" as="sourcePoint" />
+            <mxPoint x="440" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Px4W81PEA-qsthMNMplE-15" value="5-GitHub-Actions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="490" y="344" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Px4W81PEA-qsthMNMplE-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.008;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Px4W81PEA-qsthMNMplE-7" target="Px4W81PEA-qsthMNMplE-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="524" as="sourcePoint" />
+            <mxPoint x="630" y="474" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Px4W81PEA-qsthMNMplE-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Px4W81PEA-qsthMNMplE-15" target="Px4W81PEA-qsthMNMplE-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="544" as="sourcePoint" />
+            <mxPoint x="410" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
