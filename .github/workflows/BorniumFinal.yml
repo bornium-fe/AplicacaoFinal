@@ -1,4 +1,4 @@
-name: GitHub Teste
+name: Bornium Sistemas 11.0
 run-name: Rodando
 on: [push]
 jobs: 
