@@ -2,8 +2,8 @@ name: Bornium Sistemas 11.0
 #run-name: Rodando
 on: 
   push:
-    branches:
-      - VersaoFinal
+    paths:
+      - 'ControleVersao.txt'  # Somente vai ser executada quando este arquivo for alterado
 jobs: 
   on-push:
     runs-on: ubuntu-latest
